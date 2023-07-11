@@ -1,6 +1,6 @@
 variable "resource_group_location" {
-  default     = "australiaeast"
-  description = "Location of the resource group - Australia East"
+  default     = "eastus"
+  description = "Location of the resource group - East US"
 }
 
 variable "rg_name" {
@@ -44,7 +44,7 @@ variable "tags" {
   default = {
     Environment = "Dev"
     Department  = "IT"
-    Location = "AustraliaEast"
+    Location = "East US"
     ServiceClass = "DEV"
     Workload = "Host Pool 01"
   }
